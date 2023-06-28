@@ -31,7 +31,7 @@ export default abstract class Globals {
         worm_quantity: 'Worm Quant. Gained',
         larva_quantity: 'Larva Quant. Gained',
         damage: 'Expedition Damage',
-        card_chance: 'Card Chance',
+        card_exp: 'Card Exp',
         time: 'Expedition Time Bonus',
         reward: 'Expedition Reward',
         card_power: 'Card Power Gained',
