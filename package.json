@@ -1,7 +1,7 @@
 {
   "name": "fapi-pets",
   "version": "0.1.0",
-  "homepage": "https://zy4m.github.io/fapi-pets/",
+  "homepage": "https://erik434.github.io/fapi-pets/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
