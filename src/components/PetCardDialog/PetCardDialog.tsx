@@ -41,7 +41,7 @@ export default class PetCardDialog extends React.Component<PetCardDialogProps, a
                                 </Divider>
                                 <div>
                                     {Object.keys(this.props.selectedPet.equipped.bonuses).map((keyName, i) =>
-                                        <div>
+                                        <div key={keyName}>
                                             {Globals.Bonuses[keyName]}: +{(this.props.selectedPet.equipped.bonuses[keyName]).toFixed(2)}%
                                         </div>
                                     )}
@@ -51,7 +51,7 @@ export default class PetCardDialog extends React.Component<PetCardDialogProps, a
                                 </Divider>
                                 <div>
                                     {Object.keys(this.props.selectedPet.expedition.bonuses).map((keyName, i) =>
-                                        <div>
+                                        <div key={keyName}>
                                             {Globals.ExpeditionBonuses[keyName]}: +{(this.props.selectedPet.expedition.bonuses[keyName]).toFixed(2)}%
                                         </div>
                                     )}

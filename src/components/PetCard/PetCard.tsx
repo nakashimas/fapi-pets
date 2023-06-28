@@ -46,7 +46,7 @@ export default class PetCard extends React.Component<PetCardProps, PetCardState>
                                 </Divider>
                                 <div>
                                     {Object.keys(this.props.pet.equipped.bonuses).map((keyName, i) =>
-                                        <div>
+                                        <div key={keyName}>
                                             {Globals.Bonuses[keyName]}: +{(this.props.pet.equipped.bonuses[keyName]).toFixed(2)}%
                                         </div>
                                     )}

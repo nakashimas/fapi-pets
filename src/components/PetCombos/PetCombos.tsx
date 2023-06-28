@@ -60,7 +60,7 @@ export default class PetCombos extends React.Component<PetComboProps, PetComboSt
             <div>
                 {
                     Object.keys(Globals.Combos).map((keyName, i) =>
-                        <Accordion style={{ marginTop: 20 }}>
+                        <Accordion key={keyName} style={{ marginTop: 20 }}>
                             <AccordionSummary
                                 expandIcon={<ExpandMoreIcon />}
                                 aria-controls="panel1a-content"
@@ -71,9 +71,9 @@ export default class PetCombos extends React.Component<PetComboProps, PetComboSt
                             <AccordionDetails >
                                 <Grid style={{ display: 'flex' }} item xs={12} md={12} container spacing={2}>
                                     {(combos[keyName] as Array<Combo>).map(c =>
-                                        <Grid style={{ display: 'flex' }} item xs={12} md={12} container spacing={2}>
+                                        <Grid key={keyName} style={{ display: 'flex' }} item xs={12} md={12} container spacing={2}>
                                             {c.pet_ids.map((id, i) =>
-                                                <Grid style={{ display: 'flex' }} item xs={4} md={4}>
+                                                <Grid key={id} style={{ display: 'flex' }} item xs={4} md={4}>
                                                     <Card elevation={4}>
                                                         <CardActionArea sx={{ display: 'flex', minWidth: 250, justifyContent: 'left' }} className="combo-card" onClick={() => {
                                                             this.setState({ selectedPet: this.props.pets.filter(p => p.id == id.toString())[0], openDialog: true })

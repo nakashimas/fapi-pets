@@ -21,7 +21,7 @@ import Typography from '@mui/material/Typography';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import PetCombos from '../PetCombos/PetCombos';
-import { Input, TextField } from '@mui/material';
+import { TextField } from '@mui/material';
 
 export default class PetGrid extends React.Component<any, PetGridState> {
   constructor(props: any) {
@@ -49,10 +49,10 @@ export default class PetGrid extends React.Component<any, PetGridState> {
         target: { value },
       } = event;
       this.setState({
-        filteredPets: value.length == 0 ? this.state.pets.filter(p => p.name.toLocaleLowerCase().includes(this.state.searchTerm.toLocaleLowerCase()))
+        filteredPets: value.length === 0 ? this.state.pets.filter(p => p.name.toLocaleLowerCase().includes(this.state.searchTerm.toLocaleLowerCase()))
           : this.state.pets.filter(p => p.name.toLocaleLowerCase().includes(this.state.searchTerm.toLocaleLowerCase()))
             .filter(p => {
-              for (let bonus in p.equipped.bonuses) {
+              for (const bonus in p.equipped.bonuses) {
                 if (value.includes(Globals.Bonuses[bonus]))
                   return true;
               }
@@ -179,9 +179,9 @@ export default class PetGrid extends React.Component<any, PetGridState> {
       searchTerm: searchTerm.toLocaleLowerCase(),
       filteredPets: this.state.pets.filter(p => p.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase()))
         .filter(p => {
-          if (this.state.bonusFilter.length == 0)
+          if (this.state.bonusFilter.length === 0)
             return true;
-          for (let bonus in p.equipped.bonuses) {
+          for (const bonus in p.equipped.bonuses) {
             if (this.state.bonusFilter.includes(Globals.Bonuses[bonus]))
               return true;
           }
