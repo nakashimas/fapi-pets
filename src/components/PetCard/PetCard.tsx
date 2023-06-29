@@ -51,6 +51,16 @@ export default class PetCard extends React.Component<PetCardProps, PetCardState>
                                         </div>
                                     )}
                                 </div>
+                                <Divider>
+                                    <Typography sx={{ fontWeight: 'bold' }}>Expedition Bonuses</Typography>
+                                </Divider>
+                                <div>
+                                    {Object.keys(this.props.pet.expedition.bonuses).map((keyName, i) =>
+                                        <div key={keyName}>
+                                            {Globals.ExpeditionBonuses[keyName]}: +{(this.props.pet.expedition.bonuses[keyName]).toFixed(2)}%
+                                        </div>
+                                    )}
+                                </div>
                             </Typography>
                         </CardContent>
                     </CardActionArea>
