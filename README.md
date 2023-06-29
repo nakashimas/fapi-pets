@@ -1,3 +1,6 @@
+Notes to myself:
+In addition to the start/build commands below, use "npm run deploy" to deploy a new version to gh-pages.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
