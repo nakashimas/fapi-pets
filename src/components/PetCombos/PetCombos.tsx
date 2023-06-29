@@ -60,7 +60,7 @@ export default class PetCombos extends React.Component<PetComboProps, PetComboSt
             <div>
                 {
                     Object.keys(Globals.Combos).map((keyName, i) =>
-                        <Accordion key={keyName} style={{ marginTop: 20 }}>
+                        <Accordion key={keyName} style={{ marginTop: 20 }} defaultExpanded>
                             <AccordionSummary
                                 expandIcon={<ExpandMoreIcon />}
                                 aria-controls="panel1a-content"
