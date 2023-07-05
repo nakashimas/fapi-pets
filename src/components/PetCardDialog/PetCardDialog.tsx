@@ -7,7 +7,6 @@ import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
-import Globals from '../../util/Globals';
 
 export default class PetCardDialog extends React.Component<PetCardDialogProps, any> {
     constructor(props: PetCardDialogProps) {
@@ -24,37 +23,33 @@ export default class PetCardDialog extends React.Component<PetCardDialogProps, a
                         <CardMedia
                             sx={{ height: 140 }}
                             title={this.props.selectedPet.name}
-                            image={require(`../../assets/sprites/${this.props.selectedPet.name}.png`)}
+                            image={require(`../../assets/sprites/Pet${this.props.selectedPet.id}.png`)}
                             style={{ backgroundSize: "auto" }}
                             className={`rarity-${this.props.selectedPet.rarity}`}
                         />
                         <CardContent>
                             <Typography variant="body2" color="text.secondary">
                                 <div>
-                                    Location: {this.props.selectedPet.location.startsWith('E') ? Globals.Expeditions[this.props.selectedPet.location] : this.props.selectedPet.location} <br />
+                                    Location: {this.props.selectedPet.location} <br />
                                     Type: {this.props.selectedPet.type} <br />
-                                    Drop Chance: 1/{(this.props.selectedPet.pity/4).toLocaleString()} <br />
-                                    Base Pity: {(this.props.selectedPet.pity/2).toLocaleString()} {this.props.selectedPet.location.startsWith('E') ? 'hrs.':''}
+                                    Drop Chance: 1 in {(this.props.selectedPet.pity / 4).toLocaleString()} {this.props.selectedPet.location.includes('(E') ? 'hrs.' : 'kills'}<br />
+                                    Base Pity: {(this.props.selectedPet.pity / 2).toLocaleString()} {this.props.selectedPet.location.includes('(E') ? 'hrs.' : 'kills'}
                                 </div>
                                 <Divider>
                                     <Typography sx={{ fontWeight: 'bold' }}>Bonuses</Typography>
                                 </Divider>
                                 <div>
-                                    {Object.keys(this.props.selectedPet.equipped.bonuses).map((keyName, i) =>
-                                        <div key={keyName}>
-                                            {Globals.Bonuses[keyName]}: +{(this.props.selectedPet.equipped.bonuses[keyName]).toFixed(2)}%
-                                        </div>
-                                    )}
+                                    {this.props.selectedPet.bonuses.map(bonus => (
+                                        <div key={bonus.name}>{bonus.fullText}</div>
+                                    ))}
                                 </div>
                                 <Divider>
                                     <Typography sx={{ fontWeight: 'bold' }}>Expedition Bonuses</Typography>
                                 </Divider>
                                 <div>
-                                    {Object.keys(this.props.selectedPet.expedition.bonuses).map((keyName, i) =>
-                                        <div key={keyName}>
-                                            {Globals.ExpeditionBonuses[keyName]}: +{(this.props.selectedPet.expedition.bonuses[keyName]).toFixed(2)}%
-                                        </div>
-                                    )}
+                                    {this.props.selectedPet.expeditionBonuses.map(bonus => (
+                                        <div key={bonus.name}>{bonus.fullText}</div>
+                                    ))}
                                 </div>
                             </Typography>
                         </CardContent>

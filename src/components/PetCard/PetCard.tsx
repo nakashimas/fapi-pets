@@ -7,7 +7,6 @@ import { PetCardProps } from './PetCardProps';
 import { PetCardState } from './PetCardState';
 import Divider from '@mui/material/Divider';
 import './PetCard.css';
-import Globals from '../../util/Globals';
 import { CardActionArea, getTableHeadUtilityClass } from '@mui/material';
 import PetCardDialog from '../PetCardDialog/PetCardDialog';
 
@@ -28,7 +27,7 @@ export default class PetCard extends React.Component<PetCardProps, PetCardState>
                         <CardMedia
                             sx={{ height: 140 }}
                             title={this.props.pet.name}
-                            image={require(`../../assets/sprites/${this.props.pet.name}.png`)}
+                            image={require(`../../assets/sprites/Pet${this.props.pet.id}.png`)}
                             style={{ backgroundSize: "auto" }}
                             className={`rarity-${this.props.pet.rarity}`}
                         />
@@ -38,28 +37,24 @@ export default class PetCard extends React.Component<PetCardProps, PetCardState>
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
                                 <div>
-                                    Location: {this.props.pet.location.startsWith('E') ? Globals.Expeditions[this.props.pet.location] : this.props.pet.location} <br />
+                                    Location: {this.props.pet.location} <br />
                                     Type: {this.props.pet.type}
                                 </div>
                                 <Divider>
                                     <Typography sx={{ fontWeight: 'bold' }}>Bonuses</Typography>
                                 </Divider>
                                 <div>
-                                    {Object.keys(this.props.pet.equipped.bonuses).map((keyName, i) =>
-                                        <div key={keyName}>
-                                            {Globals.Bonuses[keyName]}: +{(this.props.pet.equipped.bonuses[keyName]).toFixed(2)}%
-                                        </div>
-                                    )}
+                                    {this.props.pet.bonuses.map(bonus => (
+                                        <div key={bonus.name}>{bonus.fullText}</div>
+                                    ))}
                                 </div>
                                 <Divider>
                                     <Typography sx={{ fontWeight: 'bold' }}>Expedition Bonuses</Typography>
                                 </Divider>
                                 <div>
-                                    {Object.keys(this.props.pet.expedition.bonuses).map((keyName, i) =>
-                                        <div key={keyName}>
-                                            {Globals.ExpeditionBonuses[keyName]}: +{(this.props.pet.expedition.bonuses[keyName]).toFixed(2)}%
-                                        </div>
-                                    )}
+                                    {this.props.pet.expeditionBonuses.map(bonus => (
+                                        <div key={bonus.name}>{bonus.fullText}</div>
+                                    ))}
                                 </div>
                             </Typography>
                         </CardContent>

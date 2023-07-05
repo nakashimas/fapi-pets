@@ -1,7 +1,8 @@
 import React from 'react';
 import './PetGrid.css';
 import petJson from '../../assets/data/pets.json';
-import comboJson from '../../assets/data/pet_combos.json';
+import comboJson from '../../assets/data/combos.json';
+import bonusJson from '../../assets/data/bonuses.json';
 import Grid from '@mui/material/Grid';
 import Item from '@mui/material/Grid';
 import PetCard from '../PetCard/PetCard';
@@ -11,9 +12,9 @@ import InputLabel from '@mui/material/InputLabel';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import MenuItem from '@mui/material/MenuItem';
 import Checkbox from '@mui/material/Checkbox';
+import Button from '@mui/material/Button';
 import ListItemText from '@mui/material/ListItemText';
 import { PetGridState } from './PetGridState';
-import Globals from '../../util/Globals';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Paper from '@mui/material/Paper';
@@ -28,12 +29,15 @@ export default class PetGrid extends React.Component<any, PetGridState> {
     super(props);
 
     this.state = {
-      pets: petJson.pets,
-      filteredPets: petJson.pets,
+      pets: petJson,
+      combos: comboJson,
+      filteredPets: petJson,
+      searchTerm: '',
+      bonuses: bonusJson.petBonuses,
       bonusFilter: [],
+      expeditionBonuses: bonusJson.expeditionBonuses,
+      expeditionBonusFilter: [],
       tabValue: 0,
-      combos: comboJson.combos,
-      searchTerm: ''
     }
   }
 
@@ -44,22 +48,21 @@ export default class PetGrid extends React.Component<any, PetGridState> {
       },
     });
 
-    const handleChange = (event: SelectChangeEvent<typeof this.state.bonusFilter>) => {
-      const {
-        target: { value },
-      } = event;
-      this.setState({
-        filteredPets: value.length === 0 ? this.state.pets.filter(p => p.name.toLocaleLowerCase().includes(this.state.searchTerm.toLocaleLowerCase()))
-          : this.state.pets.filter(p => p.name.toLocaleLowerCase().includes(this.state.searchTerm.toLocaleLowerCase()))
-            .filter(p => {
-              for (const bonus in p.equipped.bonuses) {
-                if (value.includes(Globals.Bonuses[bonus]))
-                  return true;
-              }
-              return false;
-            }),
-        bonusFilter: typeof value === 'string' ? value.split(',') : value
-      })
+    // TODO: when selecting a filter, restrict remaining options to only those that will result in some pets remaining - don't leave options open that will clear all the pets away
+    const onBonusFilterChange = (event: SelectChangeEvent<typeof this.state.bonusFilter>) => {
+      const value = (event.target.value as string[]) ?? [];
+      this.setState((prevState) => ({
+        bonusFilter: value,
+        filteredPets: this.filterPets(prevState, null, value, null)
+      }))
+    };
+
+    const onExpeditionBonusFilterChange = (event: SelectChangeEvent<typeof this.state.expeditionBonusFilter>) => {
+      const value = (event.target.value as string[]) ?? [];
+      this.setState((prevState) => ({
+        expeditionBonusFilter: value,
+        filteredPets: this.filterPets(prevState, null, null, value)
+      }))
     };
 
     const handleTabChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -105,19 +108,43 @@ export default class PetGrid extends React.Component<any, PetGridState> {
                     id="bonus-filter-multiple-checkbox"
                     multiple
                     value={this.state.bonusFilter}
-                    onChange={handleChange}
+                    onChange={onBonusFilterChange}
                     input={<OutlinedInput label="Pet Bonuses" />}
                     renderValue={(selected) => selected.join(', ')}
-                    MenuProps={{ PaperProps: { style: { maxHeight: 48 * 4.5 + 8, width: 250, }, }, }}
+                    MenuProps={{ PaperProps: { style: { maxHeight: 48 * 9 + 8, width: 250, }, }, }}
                   >
-                    {Object.keys(Globals.Bonuses).map((bonus: string) => (
-                      <MenuItem key={bonus} value={Globals.Bonuses[bonus]}>
-                        <Checkbox checked={this.state.bonusFilter.indexOf(Globals.Bonuses[bonus]) > -1} />
-                        <ListItemText primary={Globals.Bonuses[bonus]} />
+                    {this.state.bonuses.map((bonus: string) => (
+                      <MenuItem key={bonus} value={bonus}>
+                        <Checkbox checked={this.state.bonusFilter.indexOf(bonus) > -1} />
+                        <ListItemText primary={bonus} />
                       </MenuItem>
                     ))}
                   </Select>
                 </FormControl>
+                <FormControl sx={{ m: 1, width: 300 }}>
+                  <InputLabel id="expedition-bonus-filter-multiple-checkbox-label">Expedition Bonuses</InputLabel>
+                  <Select
+                    labelId="expedition-bonus-filter-multiple-checkbox-label"
+                    id="expedition-bonus-filter-multiple-checkbox"
+                    multiple
+                    value={this.state.expeditionBonusFilter}
+                    onChange={onExpeditionBonusFilterChange}
+                    input={<OutlinedInput label="Expedition Bonuses" />}
+                    renderValue={(selected) => selected.join(', ')}
+                    MenuProps={{ PaperProps: { style: { maxHeight: 48 * 9 + 8, width: 250, }, }, }}
+                  >
+                    {this.state.expeditionBonuses.map((expeditionBonus: string) => (
+                      <MenuItem key={expeditionBonus} value={expeditionBonus}>
+                        <Checkbox checked={this.state.expeditionBonusFilter.indexOf(expeditionBonus) > -1} />
+                        <ListItemText primary={expeditionBonus} />
+                      </MenuItem>
+                    ))}
+                  </Select>
+                </FormControl>
+                <Button
+                  variant='outlined'
+                  onClick={this.onClickClear}
+                >Clear</Button>
               </Grid>
               {this.state.filteredPets.map((p, i) => <Grid item xs={12} md={2.3} key={i}>
                 <Item>
@@ -173,20 +200,57 @@ export default class PetGrid extends React.Component<any, PetGridState> {
     }
   }
 
+  private filterPets = function (prevState: PetGridState, newSearchTerm: string = null, newBonusFilter: string[] = null, newExpeditionBonusFilter: string[] = null) {
+    const searchTerm = (newSearchTerm ?? prevState.searchTerm).toLocaleLowerCase();
+    const bonusFilter = newBonusFilter ?? prevState.bonusFilter;
+    const expeditionBonusFilter = newExpeditionBonusFilter ?? prevState.expeditionBonusFilter;
+    let filteredPets = prevState.pets;
+
+    if (searchTerm.length !== 0) {
+      filteredPets = filteredPets.filter(pet => pet.name.toLocaleLowerCase().includes(searchTerm));
+    }
+
+    if (bonusFilter.length !== 0) {
+      filteredPets = filteredPets.filter(pet => {
+        for (const bonusName of bonusFilter) {
+          // This pet must have all selected bonuses - return false if the pet lacks any bonus in the filter
+          if (!pet.bonuses.some(petBonus => petBonus.name === bonusName)) return false;
+        }
+
+        // If we make it down here, this pet has every bonus in the filter
+        return true;
+      });
+    }
+
+    if (expeditionBonusFilter.length !== 0) {
+      filteredPets = filteredPets.filter(pet => {
+        for (const bonusName of expeditionBonusFilter) {
+          // This pet must have all selected bonuses - return false if the pet lacks any bonus in the filter
+          if (!pet.expeditionBonuses.some(petBonus => petBonus.name === bonusName)) return false;
+        }
+
+        // If we make it down here, this pet has every bonus in the filter
+        return true;
+      });
+    }
+
+    return filteredPets;
+  }
+
   private onSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const searchTerm: string = event.target.value ? event.target.value : '';
+    const searchTerm: string = (event.target.value ?? '').toLocaleLowerCase();
+    this.setState((prevState) => ({
+      searchTerm: searchTerm,
+      filteredPets: this.filterPets(prevState, searchTerm, null, null)
+    }));
+  }
+
+  private onClickClear = () => {
     this.setState({
-      searchTerm: searchTerm.toLocaleLowerCase(),
-      filteredPets: this.state.pets.filter(p => p.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase()))
-        .filter(p => {
-          if (this.state.bonusFilter.length === 0)
-            return true;
-          for (const bonus in p.equipped.bonuses) {
-            if (this.state.bonusFilter.includes(Globals.Bonuses[bonus]))
-              return true;
-          }
-          return false;
-        })
+      searchTerm: "",
+      bonusFilter: [],
+      expeditionBonusFilter: [],
+      filteredPets: this.state.pets
     });
   }
 }

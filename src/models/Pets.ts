@@ -1,14 +1,12 @@
-export interface Pets {
-    pets: Array<Pet>;
-}
+import { Bonus } from "./Bonus"; 
 
 export interface Pet {
-    id: string;
+    id: number;
     name: string;
     location: string;
     type: string;
     pity: number;
-    equipped: any;
-    expedition: any;
+    bonuses: Array<Bonus>;
+    expeditionBonuses: Array<Bonus>;
     rarity: number;
 }

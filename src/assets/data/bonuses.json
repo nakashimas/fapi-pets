@@ -1,0 +1,40 @@
+{
+  "petBonuses": [
+    "Potato Earned",
+    "Class Exp Earned",
+    "Skulls Earned",
+    "Confection Exp Earned",
+    "Reincarnation Exp Earned",
+    "Item Rating Bonus",
+    "Poop Created",
+    "Milk Created",
+    "Whack Score Bonus",
+    "Brewing Exp Earned",
+    "Calcium Exp Earned",
+    "Fermenting Exp Earned",
+    "Residue Created",
+    "Worm Quantity Found",
+    "Larva Quantity Found",
+    "Larva Efficiency Bonus",
+    "Card Power",
+    "Card Exp"
+  ],
+  "expeditionBonuses": [
+    "Potato Gained",
+    "Class Exp Gained",
+    "Skulls Gained",
+    "Worm Quantity Gained",
+    "Poop Gained",
+    "Larva Quantity Gained",
+    "Whack Score Gained",
+    "Milk Gained",
+    "Residue Gained",
+    "Card Power Gained",
+    "Expedition Reward",
+    "Expedition Time Bonus",
+    "Expedition Damage",
+    "Reincarnation Point",
+    "Expedition Token",
+    "Card Exp"
+  ]
+}

@@ -1,1045 +1,2452 @@
-{
-    "pets": [
-        {
-            "id": "1",
-            "name": "Cocorico",
-            "location": "3-2",
-            "type": "Ground",
-            "rarity": 1,
-            "pity": 0,
-            "equipped": {
-                "bonuses": {
-                    "potatoes": 0.5
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "potatoes": 5
-                }
-            }
-        },
-        {
-            "id": "2",
-            "name": "Rico",
-            "location": "3-2",
-            "type": "Air",
-            "rarity": 1,
-            "pity": 500000,
-            "equipped": {
-                "bonuses": {
-                    "class_exp": 0.5
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "class_exp": 5
-                }
-            }
-        },
-        {
-            "id": "3",
-            "name": "Trevor",
-            "location": "3-3",
-            "type": "Ground",
-            "rarity": 2,
-            "pity": 1500000,
-            "equipped": {
-                "bonuses": {
-                    "skulls": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "skulls": 5
-                }
-            }
-        },
-        {
-            "id": "4",
-            "name": "Bingo",
-            "location": "3-4",
-            "type": "Air",
-            "rarity": 1,
-            "pity": 1000000,
-            "equipped": {
-                "bonuses": {
-                    "confection_exp": 0.5
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "worm_quantity": 5
-                }
-            }
-        },
-        {
-            "id": "7",
-            "name": "Vidar",
-            "location": "3-5",
-            "type": "Ground",
-            "rarity": 1,
-            "pity": 1500000,
-            "equipped": {
-                "bonuses": {
-                    "poop": 0.5,
-                    "potatoes": 0.5
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "milk": 5,
-                    "damage": 10
-                }
-            }
-        },
-        {
-            "id": "5",
-            "name": "Primfeet",
-            "location": "3-6",
-            "type": "Ground",
-            "rarity": 4,
-            "pity": 2000000,
-            "equipped": {
-                "bonuses": {
-                    "reincarnation_exp": 0.05
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "residue": 5,
-                    "card_exp": 2.5
-                }
-            }
-        },
-        {
-            "id": "8",
-            "name": "Hiko",
-            "location": "3-7",
-            "type": "Air",
-            "rarity": 2,
-            "pity": 2000000,
-            "equipped": {
-                "bonuses": {
-                    "milk": 0.25,
-                    "skulls": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "larva_quantity": 5,
-                    "time": 5
-                }
-            }
-        },
-        {
-            "id": "9",
-            "name": "Murphy",
-            "location": "3-8",
-            "type": "Ground",
-            "rarity": 1,
-            "pity": 3000000,
-            "equipped": {
-                "bonuses": {
-                    "whack_score": 0.5,
-                    "confection_exp": 0.5
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "whack_score": 5,
-                    "reward": 5
-                }
-            }
-        },
-        {
-            "id": "10",
-            "name": "Aphrodite",
-            "location": "3-9",
-            "type": "Air",
-            "rarity": 4,
-            "pity": 10000000,
-            "equipped": {
-                "bonuses": {
-                    "residue": 0.05,
-                    "poop": 0.5
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "skulls": 5,
-                    "damage": 10
-                }
-            }
-        },
-        {
-            "id": "6",
-            "name": "Nidhogg",
-            "location": "4-1",
-            "type": "Air",
-            "rarity": 3,
-            "pity": 5000000,
-            "equipped": {
-                "bonuses": {
-                    "item_rating": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "poop": 5,
-                    "reward": 5
-                }
-            }
-        },
-        {
-            "id": "11",
-            "name": "Nuts",
-            "location": "4-2",
-            "type": "Ground",
-            "rarity": 3,
-            "pity": 5000000,
-            "equipped": {
-                "bonuses": {
-                    "calcium_exp": 0.1,
-                    "item_rating": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "poop": 5,
-                    "reward": 5
-                }
-            }
-        },
-        {
-            "id": "14",
-            "name": "Cid",
-            "location": "4-3",
-            "type": "Air",
-            "rarity": 1,
-            "pity": 10000000,
-            "equipped": {
-                "bonuses": {
-                    "worm_quantity": 0.25,
-                    "whack_score": 0.5
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "class_exp": 5,
-                    "time": 5
-                }
-            }
-        },
-        {
-            "id": "13",
-            "name": "Flash",
-            "location": "4-4",
-            "type": "Ground",
-            "rarity": 2,
-            "pity": 5000000,
-            "equipped": {
-                "bonuses": {
-                    "brewing_exp": 0.25,
-                    "class_exp": 0.5
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "potatoes": 5,
-                    "card_exp": 2.5
-                }
-            }
-        },
-        {
-            "id": "15",
-            "name": "Tango",
-            "location": "4-5",
-            "type": "Ground",
-            "rarity": 4,
-            "pity": 20000000,
-            "equipped": {
-                "bonuses": {
-                    "larva_quantity": 0.25,
-                    "reincarnation_exp": 0.05
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "card_power": 2.5,
-                    "card_exp": 2.5
-                }
-            }
-        },
-        {
-            "id": "16",
-            "name": "Darti",
-            "location": "4-6",
-            "type": "Air",
-            "rarity": 2,
-            "pity": 15000000,
-            "equipped": {
-                "bonuses": {
-                    "larva_efficiency": 0.1,
-                    "brewing_exp": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "larva_quantity": 5,
-                    "reward": 5
-                }
-            }
-        },
-        {
-            "id": "12",
-            "name": "Alvin",
-            "location": "4-7",
-            "type": "Air",
-            "rarity": 2,
-            "pity": 10000000,
-            "equipped": {
-                "bonuses": {
-                    "poop": 0.5,
-                    "milk": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "worm_quantity": 5,
-                    "damage": 10
-                }
-            }
-        },
-        {
-            "id": "19",
-            "name": "Johny Be Good",
-            "location": "4-8",
-            "type": "Ground",
-            "rarity": 2,
-            "pity": 20000000,
-            "equipped": {
-                "bonuses": {
-                    "larva_quantity": 0.25,
-                    "larva_efficiency": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "residue": 5,
-                    "card_exp": 2.5,
-                    "card_power": 2.5
-                }
-            }
-        },
-        {
-            "id": "17",
-            "name": "Arizona",
-            "location": "4-9",
-            "type": "Ground",
-            "rarity": 4,
-            "pity": 40000000,
-            "equipped": {
-                "bonuses": {
-                    "residue": 0.05,
-                    "calcium_exp": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "whack_score": 5,
-                    "time": 5
-                }
-            }
-        },
-        {
-            "id": "18",
-            "name": "Suijin",
-            "location": "5-1",
-            "type": "Air",
-            "rarity": 2,
-            "pity": 20000000,
-            "equipped": {
-                "bonuses": {
-                    "fermenting_exp": 0.1,
-                    "worm_quantity": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "milk": 5,
-                    "damage": 10
-                }
-            }
-        },
-        {
-            "id": "20",
-            "name": "Nucifera",
-            "location": "5-2",
-            "type": "Air",
-            "rarity": 1,
-            "pity": 40000000,
-            "equipped": {
-                "bonuses": {
-                    "potatoes": 0.5,
-                    "class_exp": 0.5,
-                    "skulls": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "potatoes": 5,
-                    "class_exp": 5,
-                    "skulls": 5
-                }
-            }
-        },
-        {
-            "id": "21",
-            "name": "Barney",
-            "location": "5-3",
-            "type": "Ground",
-            "rarity": 1,
-            "pity": 20000000,
-            "equipped": {
-                "bonuses": {
-                    "poop": 0.5,
-                    "whack_score": 0.5,
-                    "larva_quantity": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "card_power": 2.5,
-                    "worm_quantity": 5,
-                    "reincarnation": 2.5
-                }
-            }
-        },
-        {
-            "id": "22",
-            "name": "Seth",
-            "location": "5-4",
-            "type": "Air",
-            "rarity": 3,
-            "pity": 25000000,
-            "equipped": {
-                "bonuses": {
-                    "class_exp": 0.5,
-                    "confection_exp": 0.5,
-                    "fermenting_exp": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "potatoes": 5,
-                    "card_exp": 2.5,
-                    "tokens": 5
-                }
-            }
-        },
-        {
-            "id": "23",
-            "name": "Plyne",
-            "location": "5-5",
-            "type": "Ground",
-            "rarity": 3,
-            "pity": 45000000,
-            "equipped": {
-                "bonuses": {
-                    "skulls": 0.25,
-                    "calcium_exp": 0.1,
-                    "residue": 0.05
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "class_exp": 5,
-                    "milk": 5,
-                    "reward": 5
-                }
-            }
-        },
-        {
-            "id": "24",
-            "name": "Zac",
-            "location": "5-6",
-            "type": "Air",
-            "rarity": 2,
-            "pity": 25000000,
-            "equipped": {
-                "bonuses": {
-                    "potatoes": 0.5,
-                    "milk": 0.25,
-                    "worm_quantity": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "potatoes": 5,
-                    "poop": 5,
-                    "damage": 10
-                }
-            }
-        },
-        {
-            "id": "25",
-            "name": "Tock",
-            "location": "5-7",
-            "type": "Ground",
-            "rarity": 3,
-            "pity": 25000000,
-            "equipped": {
-                "bonuses": {
-                    "class_exp": 0.5,
-                    "item_rating": 0.1,
-                    "fermenting_exp": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "skulls": 5,
-                    "whack_score": 5,
-                    "card_exp": 2.5
-                }
-            }
-        },
-        {
-            "id": "26",
-            "name": "The Governess",
-            "location": "5-8",
-            "type": "Air",
-            "rarity": 2,
-            "pity": 30000000,
-            "equipped": {
-                "bonuses": {
-                    "poop": 0.5,
-                    "brewing_exp": 0.25,
-                    "larva_quantity": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "worm_quantity": 5,
-                    "larva_quantity": 5,
-                    "residue": 5
-                }
-            }
-        },
-        {
-            "id": "27",
-            "name": "Swamp King",
-            "location": "5-9",
-            "type": "Ground",
-            "rarity": 3,
-            "pity": 60000000,
-            "equipped": {
-                "bonuses": {
-                    "skulls": 0.25,
-                    "reincarnation_exp": 0.05,
-                    "residue": 0.05,
-                    "larva_efficiency": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "card_power": 2.5,
-                    "damage": 10,
-                    "reincarnation": 2.5
-                }
-            }
-        },
-        {
-            "id": "28",
-            "name": "Itzamna",
-            "location": "6-1",
-            "type": "Air",
-            "rarity": 2,
-            "pity": 30000000,
-            "equipped": {
-                "bonuses": {
-                    "potatoes": 0.5,
-                    "confection_exp": 0.5,
-                    "whack_score": 0.5,
-                    "worm_quantity": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "class_exp": 5,
-                    "poop": 5,
-                    "time": 5
-                }
-            }
-        },
-        {
-            "id": "29",
-            "name": "Julian",
-            "location": "6-2",
-            "type": "Ground",
-            "rarity": 4,
-            "pity": 80000000,
-            "equipped": {
-                "bonuses": {
-                    "reincarnation_exp": 0.05,
-                    "item_rating": 0.1,
-                    "fermenting_exp": 0.1,
-                    "residue": 0.05
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "reward": 5,
-                    "reincarnation": 2.5,
-                    "tokens": 5
-                }
-            }
-        },
-        {
-            "id": "30",
-            "name": "Yuhuang",
-            "location": "6-3",
-            "type": "Air",
-            "rarity": 1,
-            "pity": 35000000,
-            "equipped": {
-                "bonuses": {
-                    "class_exp": 0.5,
-                    "skulls": 0.25,
-                    "milk": 0.25,
-                    "brewing_exp": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "skulls": 5,
-                    "residue": 5,
-                    "damage": 10
-                }
-            }
-        },
-        {
-            "id": "31",
-            "name": "Serket",
-            "location": "E1C",
-            "type": "Ground",
-            "rarity": 1,
-            "pity": 200,
-            "equipped": {
-                "bonuses": {
-                    "whack_score": 0.5,
-                    "larva_quantity": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "milk": 5,
-                    "skulls": 5
-                }
-            }
-        },
-        {
-            "id": "32",
-            "name": "Fujin",
-            "location": "E1R",
-            "type": "Air",
-            "rarity": 4,
-            "pity": 1000,
-            "equipped": {
-                "bonuses": {
-                    "potatoes": 0.5,
-                    "reincarnation_exp": 0.05
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "card_exp": 2.5,
-                    "time": 5
-                }
-            }
-        },
-        {
-            "id": "33",
-            "name": "Ulrich",
-            "location": "E2C",
-            "type": "Ground",
-            "rarity": 1,
-            "pity": 300,
-            "equipped": {
-                "bonuses": {
-                    "confection_exp": 0.5,
-                    "calcium_exp": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "poop": 5,
-                    "larva_quantity": 5
-                }
-            }
-        },
-        {
-            "id": "34",
-            "name": "Huginn",
-            "location": "E2R",
-            "type": "Air",
-            "rarity": 2,
-            "pity": 1500,
-            "equipped": {
-                "bonuses": {
-                    "skulls": 0.25,
-                    "worm_quantity": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "residue": 5,
-                    "reward": 5
-                }
-            }
-        },
-        {
-            "id": "35",
-            "name": "Esus",
-            "location": "E3C",
-            "type": "Ground",
-            "rarity": 1,
-            "pity": 400,
-            "equipped": {
-                "bonuses": {
-                    "poop": 0.5,
-                    "milk": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "class_exp": 5,
-                    "worm_quantity": 5
-                }
-            }
-        },
-        {
-            "id": "36",
-            "name": "Hera",
-            "location": "E3R",
-            "type": "Air",
-            "rarity": 3,
-            "pity": 2000,
-            "equipped": {
-                "bonuses": {
-                    "brewing_exp": 0.25,
-                    "larva_efficiency": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "reincarnation": 2.5,
-                    "whack_score": 5
-                }
-            }
-        },
-        {
-            "id": "37",
-            "name": "Asterios",
-            "location": "E4C",
-            "type": "Ground",
-            "rarity": 2,
-            "pity": 600,
-            "equipped": {
-                "bonuses": {
-                    "class_exp": 0.5,
-                    "larva_quantity": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "card_power": 2.5,
-                    "poop": 5
-                }
-            }
-        },
-        {
-            "id": "38",
-            "name": "Odile",
-            "location": "E4R",
-            "type": "Air",
-            "rarity": 3,
-            "pity": 3000,
-            "equipped": {
-                "bonuses": {
-                    "milk": 0.25,
-                    "fermenting_exp": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "tokens": 5,
-                    "milk": 5
-                }
-            }
-        },
-        {
-            "id": "39",
-            "name": "Anubis",
-            "location": "E5C",
-            "type": "Ground",
-            "rarity": 3,
-            "pity": 2000,
-            "equipped": {
-                "bonuses": {
-                    "confection_exp": 0.5,
-                    "item_rating": 0.1,
-                    "brewing_exp": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "worm_quantity": 5,
-                    "potatoes": 5,
-                    "whack_score": 5
-                }
-            }
-        },
-        {
-            "id": "40",
-            "name": "Garuda",
-            "location": "E5R",
-            "type": "Air",
-            "rarity": 3,
-            "pity": 10000,
-            "equipped": {
-                "bonuses": {
-                    "whack_score": 0.5,
-                    "residue": 0.05,
-                    "worm_quantity": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "reincarnation": 2.5,
-                    "card_power": 2.5,
-                    "damage": 10
-                }
-            }
-        },
-        {
-            "id": "41",
-            "name": "Tsukuyomi",
-            "location": "E6C",
-            "type": "Air",
-            "rarity": 1,
-            "pity": 1000,
-            "equipped": {
-                "bonuses": {
-                    "potatoes": 0.5,
-                    "poop": 0.5,
-                    "calcium_exp": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "larva_quantity": 5,
-                    "class_exp": 5,
-                    "worm_quantity": 5
-                }
-            }
-        },
-        {
-            "id": "42",
-            "name": "Nanbozo",
-            "location": "E6R",
-            "type": "Ground",
-            "rarity": 3,
-            "pity": 5000,
-            "equipped": {
-                "bonuses": {
-                    "skulls": 0.25,
-                    "brewing_exp": 0.25,
-                    "larva_quantity": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "tokens": 5,
-                    "residue": 5,
-                    "poop": 5
-                }
-            }
-        },
-        {
-            "id": "43",
-            "name": "Ra",
-            "location": "E7C",
-            "type": "Air",
-            "rarity": 2,
-            "pity": 1200,
-            "equipped": {
-                "bonuses": {
-                    "class_exp": 0.5,
-                    "fermenting_exp": 0.1,
-                    "worm_quantity": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "potatoes": 5,
-                    "whack_score": 5,
-                    "card_power": 2.5
-                }
-            }
-        },
-        {
-            "id": "44",
-            "name": "Vishnou",
-            "location": "E7R",
-            "type": "Ground",
-            "rarity": 4,
-            "pity": 6000,
-            "equipped": {
-                "bonuses": {
-                    "reincarnation_exp": 0.05,
-                    "item_rating": 0.1,
-                    "larva_efficiency": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "reincarnation": 2.5,
-                    "skulls": 5,
-                    "time": 5
-                }
-            }
-        },
-        {
-            "id": "45",
-            "name": "Icare",
-            "location": "E8C",
-            "type": "Air",
-            "rarity": 1,
-            "pity": 1600,
-            "equipped": {
-                "bonuses": {
-                    "confection_exp": 0.5,
-                    "milk": 0.25,
-                    "whack_score": 0.5
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "larva_quantity": 5,
-                    "milk": 5,
-                    "residue": 5
-                }
-            }
-        },
-        {
-            "id": "46",
-            "name": "Olaf",
-            "location": "E8R",
-            "type": "Ground",
-            "rarity": 3,
-            "pity": 8000,
-            "equipped": {
-                "bonuses": {
-                    "item_rating": 0.1,
-                    "fermenting_exp": 0.1,
-                    "residue": 0.05
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "tokens": 5,
-                    "damage": 10,
-                    "milk": 5
-                }
-            }
-        },
-        {
-            "id": "47",
-            "name": "Fafnir",
-            "location": "E9C",
-            "type": "Air",
-            "rarity": 1,
-            "pity": 2000,
-            "equipped": {
-                "bonuses": {
-                    "potatoes": 0.5,
-                    "poop": 0.5,
-                    "calcium_exp": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "skulls": 5,
-                    "whack_score": 5,
-                    "time": 5
-                }
-            }
-        },
-        {
-            "id": "48",
-            "name": "Quetzalcoalt",
-            "location": "E9R",
-            "type": "Ground",
-            "rarity": 3,
-            "pity": 10000,
-            "equipped": {
-                "bonuses": {
-                    "reincarnation_exp": 0.05,
-                    "residue": 0.05,
-                    "larva_efficiency": 0.1
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "reincarnation": 2.5,
-                    "residue": 5,
-                    "class_exp": 5
-                }
-            }
-        },
-        {
-            "id": "49",
-            "name": "Professor Inderwind",
-            "location": "E10C",
-            "type": "Air",
-            "rarity": 2,
-            "pity": 6000,
-            "equipped": {
-                "bonuses": {
-                    "brewing_exp": 0.25,
-                    "calcium_exp": 0.1,
-                    "worm_quantity": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "tokens": 5,
-                    "poop": 5,
-                    "larva_quantity": 5
-                }
-            }
-        },
-        {
-            "id": "50",
-            "name": "Dangun",
-            "location": "E10R",
-            "type": "Ground",
-            "rarity": 4,
-            "pity": 30000,
-            "equipped": {
-                "bonuses": {
-                    "reincarnation_exp": 0.05,
-                    "item_rating": 0.1,
-                    "milk": 0.25
-                }
-            },
-            "expedition": {
-                "bonuses": {
-                    "reincarnation": 2.5,
-                    "tokens": 5,
-                    "reward": 5
-                }
-            }
-        }
+[
+  {
+    "id": 1,
+    "name": "Cocorico",
+    "rarity": 1,
+    "baseDamage": 10,
+    "type": "Ground",
+    "location": "3-1",
+    "pity": 100000,
+    "bonuses": [
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Potato Gained",
+        "fullText": "Potato Gained: \u002B5.00%"
+      }
     ]
-}
+  },
+  {
+    "id": 2,
+    "name": "Rico",
+    "rarity": 1,
+    "baseDamage": 10,
+    "type": "Air",
+    "location": "3-2",
+    "pity": 250000,
+    "bonuses": [
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Class Exp Gained",
+        "fullText": "Class Exp Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Trevor",
+    "rarity": 2,
+    "baseDamage": 8,
+    "type": "Ground",
+    "location": "3-3",
+    "pity": 750000,
+    "bonuses": [
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bingo",
+    "rarity": 1,
+    "baseDamage": 10,
+    "type": "Air",
+    "location": "3-4",
+    "pity": 500000,
+    "bonuses": [
+      {
+        "name": "Confection Exp Earned",
+        "fullText": "Confection Exp Earned: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Worm Quantity Gained",
+        "fullText": "Worm Quantity Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Vidar",
+    "rarity": 1,
+    "baseDamage": 8,
+    "type": "Ground",
+    "location": "3-5",
+    "pity": 750000,
+    "bonuses": [
+      {
+        "name": "Poop Created",
+        "fullText": "Poop Created: \u002B0.50%"
+      },
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Milk Gained",
+        "fullText": "Milk Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Primfeet",
+    "rarity": 4,
+    "baseDamage": 6,
+    "type": "Ground",
+    "location": "3-6",
+    "pity": 1000000,
+    "bonuses": [
+      {
+        "name": "Reincarnation Exp Earned",
+        "fullText": "Reincarnation Exp Earned: \u002B0.05%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Hiko",
+    "rarity": 2,
+    "baseDamage": 8,
+    "type": "Air",
+    "location": "3-7",
+    "pity": 1000000,
+    "bonuses": [
+      {
+        "name": "Milk Created",
+        "fullText": "Milk Created: \u002B0.25%"
+      },
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Larva Quantity Gained",
+        "fullText": "Larva Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Time Bonus",
+        "fullText": "Expedition Time Bonus: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Murphy",
+    "rarity": 1,
+    "baseDamage": 10,
+    "type": "Ground",
+    "location": "3-8",
+    "pity": 1500000,
+    "bonuses": [
+      {
+        "name": "Whack Score Bonus",
+        "fullText": "Whack Score Bonus: \u002B0.50%"
+      },
+      {
+        "name": "Confection Exp Earned",
+        "fullText": "Confection Exp Earned: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Whack Score Gained",
+        "fullText": "Whack Score Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Reward",
+        "fullText": "Expedition Reward: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Aphrodite",
+    "rarity": 4,
+    "baseDamage": 12,
+    "type": "Air",
+    "location": "3-9",
+    "pity": 5000000,
+    "bonuses": [
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      },
+      {
+        "name": "Poop Created",
+        "fullText": "Poop Created: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Nidhogg",
+    "rarity": 3,
+    "baseDamage": 6,
+    "type": "Air",
+    "location": "4-1",
+    "pity": 2500000,
+    "bonuses": [
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Poop Gained",
+        "fullText": "Poop Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Reward",
+        "fullText": "Expedition Reward: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Nuts",
+    "rarity": 3,
+    "baseDamage": 10,
+    "type": "Ground",
+    "location": "4-2",
+    "pity": 2500000,
+    "bonuses": [
+      {
+        "name": "Calcium Exp Earned",
+        "fullText": "Calcium Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Poop Gained",
+        "fullText": "Poop Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Reward",
+        "fullText": "Expedition Reward: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Cid",
+    "rarity": 1,
+    "baseDamage": 12,
+    "type": "Air",
+    "location": "4-3",
+    "pity": 5000000,
+    "bonuses": [
+      {
+        "name": "Worm Quantity Found",
+        "fullText": "Worm Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Whack Score Bonus",
+        "fullText": "Whack Score Bonus: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Class Exp Gained",
+        "fullText": "Class Exp Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Time Bonus",
+        "fullText": "Expedition Time Bonus: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Flash",
+    "rarity": 2,
+    "baseDamage": 8,
+    "type": "Ground",
+    "location": "4-4",
+    "pity": 2500000,
+    "bonuses": [
+      {
+        "name": "Brewing Exp Earned",
+        "fullText": "Brewing Exp Earned: \u002B0.25%"
+      },
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Potato Gained",
+        "fullText": "Potato Gained: \u002B5.00%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Tango",
+    "rarity": 4,
+    "baseDamage": 6,
+    "type": "Ground",
+    "location": "4-5",
+    "pity": 10000000,
+    "bonuses": [
+      {
+        "name": "Larva Quantity Found",
+        "fullText": "Larva Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Reincarnation Exp Earned",
+        "fullText": "Reincarnation Exp Earned: \u002B0.05%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Card Power Gained",
+        "fullText": "Card Power Gained: \u002B2.50%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Darti",
+    "rarity": 2,
+    "baseDamage": 10,
+    "type": "Air",
+    "location": "4-6",
+    "pity": 7500000,
+    "bonuses": [
+      {
+        "name": "Larva Efficiency Bonus",
+        "fullText": "Larva Efficiency Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Brewing Exp Earned",
+        "fullText": "Brewing Exp Earned: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Larva Quantity Gained",
+        "fullText": "Larva Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Reward",
+        "fullText": "Expedition Reward: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Alvin",
+    "rarity": 2,
+    "baseDamage": 12,
+    "type": "Air",
+    "location": "4-7",
+    "pity": 5000000,
+    "bonuses": [
+      {
+        "name": "Poop Created",
+        "fullText": "Poop Created: \u002B0.50%"
+      },
+      {
+        "name": "Milk Created",
+        "fullText": "Milk Created: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Worm Quantity Gained",
+        "fullText": "Worm Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Johny Be Good",
+    "rarity": 2,
+    "baseDamage": 6,
+    "type": "Ground",
+    "location": "4-8",
+    "pity": 10000000,
+    "bonuses": [
+      {
+        "name": "Larva Quantity Found",
+        "fullText": "Larva Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Larva Efficiency Bonus",
+        "fullText": "Larva Efficiency Bonus: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      },
+      {
+        "name": "Card Power Gained",
+        "fullText": "Card Power Gained: \u002B2.50%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Arizona",
+    "rarity": 4,
+    "baseDamage": 10,
+    "type": "Ground",
+    "location": "4-9",
+    "pity": 20000000,
+    "bonuses": [
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      },
+      {
+        "name": "Calcium Exp Earned",
+        "fullText": "Calcium Exp Earned: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Whack Score Gained",
+        "fullText": "Whack Score Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Time Bonus",
+        "fullText": "Expedition Time Bonus: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Suijin",
+    "rarity": 2,
+    "baseDamage": 14,
+    "type": "Air",
+    "location": "5-1",
+    "pity": 10000000,
+    "bonuses": [
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Worm Quantity Found",
+        "fullText": "Worm Quantity Found: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Milk Gained",
+        "fullText": "Milk Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Nucifera",
+    "rarity": 1,
+    "baseDamage": 10,
+    "type": "Air",
+    "location": "5-2",
+    "pity": 20000000,
+    "bonuses": [
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      },
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Potato Gained",
+        "fullText": "Potato Gained: \u002B5.00%"
+      },
+      {
+        "name": "Class Exp Gained",
+        "fullText": "Class Exp Gained: \u002B5.00%"
+      },
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Barney",
+    "rarity": 1,
+    "baseDamage": 12,
+    "type": "Ground",
+    "location": "5-3",
+    "pity": 10000000,
+    "bonuses": [
+      {
+        "name": "Poop Created",
+        "fullText": "Poop Created: \u002B0.50%"
+      },
+      {
+        "name": "Whack Score Bonus",
+        "fullText": "Whack Score Bonus: \u002B0.50%"
+      },
+      {
+        "name": "Larva Quantity Found",
+        "fullText": "Larva Quantity Found: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Card Power Gained",
+        "fullText": "Card Power Gained: \u002B2.50%"
+      },
+      {
+        "name": "Worm Quantity Gained",
+        "fullText": "Worm Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Reincarnation Point",
+        "fullText": "Reincarnation Point: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Seth",
+    "rarity": 3,
+    "baseDamage": 12,
+    "type": "Air",
+    "location": "5-4",
+    "pity": 12500000,
+    "bonuses": [
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Confection Exp Earned",
+        "fullText": "Confection Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Potato Gained",
+        "fullText": "Potato Gained: \u002B5.00%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B2.50%"
+      },
+      {
+        "name": "Expedition Token",
+        "fullText": "Expedition Token: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Plyne",
+    "rarity": 3,
+    "baseDamage": 10,
+    "type": "Ground",
+    "location": "5-5",
+    "pity": 22500000,
+    "bonuses": [
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      },
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      },
+      {
+        "name": "Calcium Exp Earned",
+        "fullText": "Calcium Exp Earned: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Class Exp Gained",
+        "fullText": "Class Exp Gained: \u002B5.00%"
+      },
+      {
+        "name": "Milk Gained",
+        "fullText": "Milk Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Reward",
+        "fullText": "Expedition Reward: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Zac",
+    "rarity": 2,
+    "baseDamage": 16,
+    "type": "Air",
+    "location": "5-6",
+    "pity": 12500000,
+    "bonuses": [
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      },
+      {
+        "name": "Milk Created",
+        "fullText": "Milk Created: \u002B0.25%"
+      },
+      {
+        "name": "Worm Quantity Found",
+        "fullText": "Worm Quantity Found: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Potato Gained",
+        "fullText": "Potato Gained: \u002B5.00%"
+      },
+      {
+        "name": "Poop Gained",
+        "fullText": "Poop Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Tock",
+    "rarity": 3,
+    "baseDamage": 14,
+    "type": "Ground",
+    "location": "5-7",
+    "pity": 12500000,
+    "bonuses": [
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      },
+      {
+        "name": "Whack Score Gained",
+        "fullText": "Whack Score Gained: \u002B5.00%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "The Governess",
+    "rarity": 2,
+    "baseDamage": 16,
+    "type": "Air",
+    "location": "5-8",
+    "pity": 15000000,
+    "bonuses": [
+      {
+        "name": "Poop Created",
+        "fullText": "Poop Created: \u002B0.50%"
+      },
+      {
+        "name": "Brewing Exp Earned",
+        "fullText": "Brewing Exp Earned: \u002B0.25%"
+      },
+      {
+        "name": "Larva Quantity Found",
+        "fullText": "Larva Quantity Found: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Worm Quantity Gained",
+        "fullText": "Worm Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Larva Quantity Gained",
+        "fullText": "Larva Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Swamp King",
+    "rarity": 3,
+    "baseDamage": 18,
+    "type": "Ground",
+    "location": "5-9",
+    "pity": 30000000,
+    "bonuses": [
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      },
+      {
+        "name": "Reincarnation Exp Earned",
+        "fullText": "Reincarnation Exp Earned: \u002B0.05%"
+      },
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      },
+      {
+        "name": "Larva Efficiency Bonus",
+        "fullText": "Larva Efficiency Bonus: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Card Power Gained",
+        "fullText": "Card Power Gained: \u002B2.50%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      },
+      {
+        "name": "Reincarnation Point",
+        "fullText": "Reincarnation Point: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Itzamna",
+    "rarity": 2,
+    "baseDamage": 14,
+    "type": "Air",
+    "location": "6-1",
+    "pity": 15000000,
+    "bonuses": [
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      },
+      {
+        "name": "Confection Exp Earned",
+        "fullText": "Confection Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Whack Score Bonus",
+        "fullText": "Whack Score Bonus: \u002B0.50%"
+      },
+      {
+        "name": "Worm Quantity Found",
+        "fullText": "Worm Quantity Found: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Class Exp Gained",
+        "fullText": "Class Exp Gained: \u002B5.00%"
+      },
+      {
+        "name": "Poop Gained",
+        "fullText": "Poop Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Time Bonus",
+        "fullText": "Expedition Time Bonus: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Julian",
+    "rarity": 4,
+    "baseDamage": 16,
+    "type": "Ground",
+    "location": "6-2",
+    "pity": 40000000,
+    "bonuses": [
+      {
+        "name": "Reincarnation Exp Earned",
+        "fullText": "Reincarnation Exp Earned: \u002B0.05%"
+      },
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      },
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Expedition Reward",
+        "fullText": "Expedition Reward: \u002B5.00%"
+      },
+      {
+        "name": "Reincarnation Point",
+        "fullText": "Reincarnation Point: \u002B2.50%"
+      },
+      {
+        "name": "Expedition Token",
+        "fullText": "Expedition Token: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Yuhuang",
+    "rarity": 1,
+    "baseDamage": 20,
+    "type": "Air",
+    "location": "6-3",
+    "pity": 17500000,
+    "bonuses": [
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      },
+      {
+        "name": "Milk Created",
+        "fullText": "Milk Created: \u002B0.25%"
+      },
+      {
+        "name": "Brewing Exp Earned",
+        "fullText": "Brewing Exp Earned: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      },
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Wako",
+    "rarity": 1,
+    "baseDamage": 18,
+    "type": "Ground",
+    "location": "6-4",
+    "pity": 20000000,
+    "bonuses": [
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Calcium Exp Earned",
+        "fullText": "Calcium Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Larva Efficiency Bonus",
+        "fullText": "Larva Efficiency Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Poop Created",
+        "fullText": "Poop Created: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Potato Gained",
+        "fullText": "Potato Gained: \u002B5.00%"
+      },
+      {
+        "name": "Whack Score Gained",
+        "fullText": "Whack Score Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Time Bonus",
+        "fullText": "Expedition Time Bonus: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Papyru",
+    "rarity": 3,
+    "baseDamage": 16,
+    "type": "Air",
+    "location": "6-5",
+    "pity": 75000000,
+    "bonuses": [
+      {
+        "name": "Whack Score Bonus",
+        "fullText": "Whack Score Bonus: \u002B0.50%"
+      },
+      {
+        "name": "Larva Quantity Found",
+        "fullText": "Larva Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B0.0015%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Worm Quantity Gained",
+        "fullText": "Worm Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Milk Gained",
+        "fullText": "Milk Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Token",
+        "fullText": "Expedition Token: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Sigma",
+    "rarity": 2,
+    "baseDamage": 18,
+    "type": "Ground",
+    "location": "6-6",
+    "pity": 15000000,
+    "bonuses": [
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Larva Efficiency Bonus",
+        "fullText": "Larva Efficiency Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Calcium Exp Earned",
+        "fullText": "Calcium Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Worm Quantity Found",
+        "fullText": "Worm Quantity Found: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Larva Quantity Gained",
+        "fullText": "Larva Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      },
+      {
+        "name": "Card Power Gained",
+        "fullText": "Card Power Gained: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Louna",
+    "rarity": 3,
+    "baseDamage": 20,
+    "type": "Air",
+    "location": "6-7",
+    "pity": 75000000,
+    "bonuses": [
+      {
+        "name": "Poop Created",
+        "fullText": "Poop Created: \u002B0.50%"
+      },
+      {
+        "name": "Confection Exp Earned",
+        "fullText": "Confection Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Reincarnation Exp Earned",
+        "fullText": "Reincarnation Exp Earned: \u002B0.05%"
+      },
+      {
+        "name": "Card Power",
+        "fullText": "Card Power: \u002B0.0015%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Reward",
+        "fullText": "Expedition Reward: \u002B5.00%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Babou",
+    "rarity": 2,
+    "baseDamage": 22,
+    "type": "Ground",
+    "location": "6-8",
+    "pity": 35000000,
+    "bonuses": [
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      },
+      {
+        "name": "Milk Created",
+        "fullText": "Milk Created: \u002B0.25%"
+      },
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Class Exp Gained",
+        "fullText": "Class Exp Gained: \u002B5.00%"
+      },
+      {
+        "name": "Poop Gained",
+        "fullText": "Poop Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Niord",
+    "rarity": 3,
+    "baseDamage": 28,
+    "type": "Air",
+    "location": "World 6 Achievement",
+    "pity": 1,
+    "bonuses": [
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B0.0015%"
+      },
+      {
+        "name": "Card Power",
+        "fullText": "Card Power: \u002B0.0015%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Potato Gained",
+        "fullText": "Potato Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Token",
+        "fullText": "Expedition Token: \u002B5.00%"
+      },
+      {
+        "name": "Reincarnation Point",
+        "fullText": "Reincarnation Point: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Mous",
+    "rarity": 1,
+    "baseDamage": 20,
+    "type": "Ground",
+    "location": "7-1",
+    "pity": 75000000,
+    "bonuses": [
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      },
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Milk Created",
+        "fullText": "Milk Created: \u002B0.25%"
+      },
+      {
+        "name": "Calcium Exp Earned",
+        "fullText": "Calcium Exp Earned: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Worm Quantity Gained",
+        "fullText": "Worm Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Flafy",
+    "rarity": 2,
+    "baseDamage": 22,
+    "type": "Air",
+    "location": "7-2",
+    "pity": 100000000,
+    "bonuses": [
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      },
+      {
+        "name": "Calcium Exp Earned",
+        "fullText": "Calcium Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      },
+      {
+        "name": "Milk Gained",
+        "fullText": "Milk Gained: \u002B5.00%"
+      },
+      {
+        "name": "Card Power Gained",
+        "fullText": "Card Power Gained: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Nick",
+    "rarity": 3,
+    "baseDamage": 22,
+    "type": "Ground",
+    "location": "7-3",
+    "pity": 150000000,
+    "bonuses": [
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      },
+      {
+        "name": "Worm Quantity Found",
+        "fullText": "Worm Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Brewing Exp Earned",
+        "fullText": "Brewing Exp Earned: \u002B0.25%"
+      },
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Card Power",
+        "fullText": "Card Power: \u002B0.0015%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Larva Quantity Gained",
+        "fullText": "Larva Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Whack Score Gained",
+        "fullText": "Whack Score Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Time Bonus",
+        "fullText": "Expedition Time Bonus: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Cherry",
+    "rarity": 4,
+    "baseDamage": 24,
+    "type": "Air",
+    "location": "7-4",
+    "pity": 250000000,
+    "bonuses": [
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      },
+      {
+        "name": "Larva Quantity Found",
+        "fullText": "Larva Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Reincarnation Exp Earned",
+        "fullText": "Reincarnation Exp Earned: \u002B0.05%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Potato Gained",
+        "fullText": "Potato Gained: \u002B5.00%"
+      },
+      {
+        "name": "Poop Gained",
+        "fullText": "Poop Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Token",
+        "fullText": "Expedition Token: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Serket",
+    "rarity": 1,
+    "baseDamage": 12,
+    "type": "Ground",
+    "location": "Butternut Forest (E1C)",
+    "pity": 100,
+    "bonuses": [
+      {
+        "name": "Whack Score Bonus",
+        "fullText": "Whack Score Bonus: \u002B0.50%"
+      },
+      {
+        "name": "Larva Quantity Found",
+        "fullText": "Larva Quantity Found: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Milk Gained",
+        "fullText": "Milk Gained: \u002B5.00%"
+      },
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Fujin",
+    "rarity": 4,
+    "baseDamage": 10,
+    "type": "Air",
+    "location": "Butternut Forest (E1R)",
+    "pity": 500,
+    "bonuses": [
+      {
+        "name": "Reincarnation Exp Earned",
+        "fullText": "Reincarnation Exp Earned: \u002B0.05%"
+      },
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B2.50%"
+      },
+      {
+        "name": "Expedition Time Bonus",
+        "fullText": "Expedition Time Bonus: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Ulrich",
+    "rarity": 1,
+    "baseDamage": 14,
+    "type": "Ground",
+    "location": "Cheddar Plain (E2C)",
+    "pity": 150,
+    "bonuses": [
+      {
+        "name": "Confection Exp Earned",
+        "fullText": "Confection Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Calcium Exp Earned",
+        "fullText": "Calcium Exp Earned: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Poop Gained",
+        "fullText": "Poop Gained: \u002B5.00%"
+      },
+      {
+        "name": "Larva Quantity Gained",
+        "fullText": "Larva Quantity Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Huginn",
+    "rarity": 2,
+    "baseDamage": 12,
+    "type": "Air",
+    "location": "Cheddar Plain (E2R)",
+    "pity": 750,
+    "bonuses": [
+      {
+        "name": "Worm Quantity Found",
+        "fullText": "Worm Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Reward",
+        "fullText": "Expedition Reward: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Esus",
+    "rarity": 1,
+    "baseDamage": 14,
+    "type": "Ground",
+    "location": "Guacamole Grotto (E3C)",
+    "pity": 200,
+    "bonuses": [
+      {
+        "name": "Poop Created",
+        "fullText": "Poop Created: \u002B0.50%"
+      },
+      {
+        "name": "Milk Created",
+        "fullText": "Milk Created: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Class Exp Gained",
+        "fullText": "Class Exp Gained: \u002B5.00%"
+      },
+      {
+        "name": "Worm Quantity Gained",
+        "fullText": "Worm Quantity Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Hera",
+    "rarity": 3,
+    "baseDamage": 16,
+    "type": "Air",
+    "location": "Guacamole Grotto (E3R)",
+    "pity": 1000,
+    "bonuses": [
+      {
+        "name": "Brewing Exp Earned",
+        "fullText": "Brewing Exp Earned: \u002B0.25%"
+      },
+      {
+        "name": "Larva Efficiency Bonus",
+        "fullText": "Larva Efficiency Bonus: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Reincarnation Point",
+        "fullText": "Reincarnation Point: \u002B2.50%"
+      },
+      {
+        "name": "Whack Score Gained",
+        "fullText": "Whack Score Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Asterios",
+    "rarity": 2,
+    "baseDamage": 12,
+    "type": "Ground",
+    "location": "Orange Mountain (E4C)",
+    "pity": 300,
+    "bonuses": [
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Larva Quantity Found",
+        "fullText": "Larva Quantity Found: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Card Power Gained",
+        "fullText": "Card Power Gained: \u002B2.50%"
+      },
+      {
+        "name": "Poop Gained",
+        "fullText": "Poop Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Odile",
+    "rarity": 3,
+    "baseDamage": 16,
+    "type": "Air",
+    "location": "Orange Mountain (E4R)",
+    "pity": 1500,
+    "bonuses": [
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Milk Created",
+        "fullText": "Milk Created: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Expedition Token",
+        "fullText": "Expedition Token: \u002B5.00%"
+      },
+      {
+        "name": "Milk Gained",
+        "fullText": "Milk Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Anubis",
+    "rarity": 3,
+    "baseDamage": 14,
+    "type": "Ground",
+    "location": "Zucchini Field (E5C)",
+    "pity": 1000,
+    "bonuses": [
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Brewing Exp Earned",
+        "fullText": "Brewing Exp Earned: \u002B0.25%"
+      },
+      {
+        "name": "Confection Exp Earned",
+        "fullText": "Confection Exp Earned: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Worm Quantity Gained",
+        "fullText": "Worm Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Potato Gained",
+        "fullText": "Potato Gained: \u002B5.00%"
+      },
+      {
+        "name": "Whack Score Gained",
+        "fullText": "Whack Score Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Garuda",
+    "rarity": 3,
+    "baseDamage": 16,
+    "type": "Air",
+    "location": "Zucchini Field (E5R)",
+    "pity": 5000,
+    "bonuses": [
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      },
+      {
+        "name": "Worm Quantity Found",
+        "fullText": "Worm Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Whack Score Bonus",
+        "fullText": "Whack Score Bonus: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Reincarnation Point",
+        "fullText": "Reincarnation Point: \u002B2.50%"
+      },
+      {
+        "name": "Card Power Gained",
+        "fullText": "Card Power Gained: \u002B2.50%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Tsukuyomi",
+    "rarity": 1,
+    "baseDamage": 12,
+    "type": "Air",
+    "location": "Munster Desert (E6C)",
+    "pity": 500,
+    "bonuses": [
+      {
+        "name": "Poop Created",
+        "fullText": "Poop Created: \u002B0.50%"
+      },
+      {
+        "name": "Calcium Exp Earned",
+        "fullText": "Calcium Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Larva Quantity Gained",
+        "fullText": "Larva Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Class Exp Gained",
+        "fullText": "Class Exp Gained: \u002B5.00%"
+      },
+      {
+        "name": "Worm Quantity Gained",
+        "fullText": "Worm Quantity Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Nanbozo",
+    "rarity": 3,
+    "baseDamage": 14,
+    "type": "Ground",
+    "location": "Munster Desert (E6R)",
+    "pity": 2500,
+    "bonuses": [
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      },
+      {
+        "name": "Larva Quantity Found",
+        "fullText": "Larva Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Brewing Exp Earned",
+        "fullText": "Brewing Exp Earned: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Expedition Token",
+        "fullText": "Expedition Token: \u002B5.00%"
+      },
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      },
+      {
+        "name": "Poop Gained",
+        "fullText": "Poop Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Ra",
+    "rarity": 2,
+    "baseDamage": 12,
+    "type": "Air",
+    "location": "Pancake Road (E7C)",
+    "pity": 600,
+    "bonuses": [
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Worm Quantity Found",
+        "fullText": "Worm Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Potato Gained",
+        "fullText": "Potato Gained: \u002B5.00%"
+      },
+      {
+        "name": "Whack Score Gained",
+        "fullText": "Whack Score Gained: \u002B5.00%"
+      },
+      {
+        "name": "Card Power Gained",
+        "fullText": "Card Power Gained: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Vishnou",
+    "rarity": 4,
+    "baseDamage": 18,
+    "type": "Ground",
+    "location": "Pancake Road (E7R)",
+    "pity": 3000,
+    "bonuses": [
+      {
+        "name": "Reincarnation Exp Earned",
+        "fullText": "Reincarnation Exp Earned: \u002B0.05%"
+      },
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Larva Efficiency Bonus",
+        "fullText": "Larva Efficiency Bonus: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Reincarnation Point",
+        "fullText": "Reincarnation Point: \u002B2.50%"
+      },
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Time Bonus",
+        "fullText": "Expedition Time Bonus: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Icare",
+    "rarity": 1,
+    "baseDamage": 16,
+    "type": "Air",
+    "location": "Salmon Lake (E8C)",
+    "pity": 800,
+    "bonuses": [
+      {
+        "name": "Milk Created",
+        "fullText": "Milk Created: \u002B0.25%"
+      },
+      {
+        "name": "Confection Exp Earned",
+        "fullText": "Confection Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Whack Score Bonus",
+        "fullText": "Whack Score Bonus: \u002B0.50%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Larva Quantity Gained",
+        "fullText": "Larva Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Milk Gained",
+        "fullText": "Milk Gained: \u002B5.00%"
+      },
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Olaf",
+    "rarity": 3,
+    "baseDamage": 16,
+    "type": "Ground",
+    "location": "Salmon Lake (E8R)",
+    "pity": 4000,
+    "bonuses": [
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      },
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Expedition Token",
+        "fullText": "Expedition Token: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      },
+      {
+        "name": "Milk Gained",
+        "fullText": "Milk Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Fafnir",
+    "rarity": 1,
+    "baseDamage": 14,
+    "type": "Air",
+    "location": "Garlic Iceland (E9C)",
+    "pity": 1000,
+    "bonuses": [
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      },
+      {
+        "name": "Larva Quantity Found",
+        "fullText": "Larva Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Calcium Exp Earned",
+        "fullText": "Calcium Exp Earned: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      },
+      {
+        "name": "Whack Score Gained",
+        "fullText": "Whack Score Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Time Bonus",
+        "fullText": "Expedition Time Bonus: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Quetzalcoalt",
+    "rarity": 3,
+    "baseDamage": 18,
+    "type": "Ground",
+    "location": "Garlic Iceland (E9R)",
+    "pity": 5000,
+    "bonuses": [
+      {
+        "name": "Reincarnation Exp Earned",
+        "fullText": "Reincarnation Exp Earned: \u002B0.05%"
+      },
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      },
+      {
+        "name": "Larva Efficiency Bonus",
+        "fullText": "Larva Efficiency Bonus: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Reincarnation Point",
+        "fullText": "Reincarnation Point: \u002B2.50%"
+      },
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      },
+      {
+        "name": "Class Exp Gained",
+        "fullText": "Class Exp Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Professor Inderwind",
+    "rarity": 2,
+    "baseDamage": 16,
+    "type": "Air",
+    "location": "Cinnamon Station (E10C)",
+    "pity": 3000,
+    "bonuses": [
+      {
+        "name": "Calcium Exp Earned",
+        "fullText": "Calcium Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Brewing Exp Earned",
+        "fullText": "Brewing Exp Earned: \u002B0.25%"
+      },
+      {
+        "name": "Worm Quantity Found",
+        "fullText": "Worm Quantity Found: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Expedition Token",
+        "fullText": "Expedition Token: \u002B5.00%"
+      },
+      {
+        "name": "Poop Gained",
+        "fullText": "Poop Gained: \u002B5.00%"
+      },
+      {
+        "name": "Larva Quantity Gained",
+        "fullText": "Larva Quantity Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Dangun",
+    "rarity": 4,
+    "baseDamage": 20,
+    "type": "Ground",
+    "location": "Cinnamon Station (E10R)",
+    "pity": 15000,
+    "bonuses": [
+      {
+        "name": "Reincarnation Exp Earned",
+        "fullText": "Reincarnation Exp Earned: \u002B0.05%"
+      },
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Milk Created",
+        "fullText": "Milk Created: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Reincarnation Point",
+        "fullText": "Reincarnation Point: \u002B2.50%"
+      },
+      {
+        "name": "Expedition Token",
+        "fullText": "Expedition Token: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Reward",
+        "fullText": "Expedition Reward: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Abby",
+    "rarity": 1,
+    "baseDamage": 18,
+    "type": "Air",
+    "location": "Apple Domain (E11C)",
+    "pity": 1500,
+    "bonuses": [
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      },
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      },
+      {
+        "name": "Confection Exp Earned",
+        "fullText": "Confection Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Worm Quantity Gained",
+        "fullText": "Worm Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Whack Score Gained",
+        "fullText": "Whack Score Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Time Bonus",
+        "fullText": "Expedition Time Bonus: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Noop",
+    "rarity": 3,
+    "baseDamage": 22,
+    "type": "Ground",
+    "location": "Apple Domain (E11R)",
+    "pity": 7500,
+    "bonuses": [
+      {
+        "name": "Confection Exp Earned",
+        "fullText": "Confection Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Whack Score Bonus",
+        "fullText": "Whack Score Bonus: \u002B0.50%"
+      },
+      {
+        "name": "Brewing Exp Earned",
+        "fullText": "Brewing Exp Earned: \u002B0.25%"
+      },
+      {
+        "name": "Reincarnation Exp Earned",
+        "fullText": "Reincarnation Exp Earned: \u002B0.05%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Larva Quantity Gained",
+        "fullText": "Larva Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Juba",
+    "rarity": 1,
+    "baseDamage": 20,
+    "type": "Ground",
+    "location": "Donut Cavern (E12C)",
+    "pity": 2000,
+    "bonuses": [
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Poop Created",
+        "fullText": "Poop Created: \u002B0.50%"
+      },
+      {
+        "name": "Whack Score Bonus",
+        "fullText": "Whack Score Bonus: \u002B0.50%"
+      },
+      {
+        "name": "Brewing Exp Earned",
+        "fullText": "Brewing Exp Earned: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Class Exp Gained",
+        "fullText": "Class Exp Gained: \u002B5.00%"
+      },
+      {
+        "name": "Poop Gained",
+        "fullText": "Poop Gained: \u002B5.00%"
+      },
+      {
+        "name": "Milk Gained",
+        "fullText": "Milk Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "David",
+    "rarity": 4,
+    "baseDamage": 24,
+    "type": "Air",
+    "location": "Donut Cavern (E12R)",
+    "pity": 10000,
+    "bonuses": [
+      {
+        "name": "Calcium Exp Earned",
+        "fullText": "Calcium Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Reincarnation Exp Earned",
+        "fullText": "Reincarnation Exp Earned: \u002B0.05%"
+      },
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B0.0015%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Card Power Gained",
+        "fullText": "Card Power Gained: \u002B2.50%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      },
+      {
+        "name": "Reincarnation Point",
+        "fullText": "Reincarnation Point: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Viktor",
+    "rarity": 2,
+    "baseDamage": 20,
+    "type": "Air",
+    "location": "Emmental Canyon (E13C)",
+    "pity": 2500,
+    "bonuses": [
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      },
+      {
+        "name": "Worm Quantity Found",
+        "fullText": "Worm Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Milk Created",
+        "fullText": "Milk Created: \u002B0.25%"
+      },
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Potato Gained",
+        "fullText": "Potato Gained: \u002B5.00%"
+      },
+      {
+        "name": "Whack Score Gained",
+        "fullText": "Whack Score Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Reward",
+        "fullText": "Expedition Reward: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Darko",
+    "rarity": 4,
+    "baseDamage": 26,
+    "type": "Ground",
+    "location": "Emmental Canyon (E13R)",
+    "pity": 12500,
+    "bonuses": [
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      },
+      {
+        "name": "Card Power",
+        "fullText": "Card Power: \u002B0.0015%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      },
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      },
+      {
+        "name": "Card Power Gained",
+        "fullText": "Card Power Gained: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Ubel",
+    "rarity": 2,
+    "baseDamage": 24,
+    "type": "Ground",
+    "location": "Lettuce Sea (E14C)",
+    "pity": 3000,
+    "bonuses": [
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      },
+      {
+        "name": "Poop Created",
+        "fullText": "Poop Created: \u002B0.50%"
+      },
+      {
+        "name": "Worm Quantity Found",
+        "fullText": "Worm Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Larva Efficiency Bonus",
+        "fullText": "Larva Efficiency Bonus: \u002B0.10%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Class Exp Gained",
+        "fullText": "Class Exp Gained: \u002B5.00%"
+      },
+      {
+        "name": "Milk Gained",
+        "fullText": "Milk Gained: \u002B5.00%"
+      },
+      {
+        "name": "Reincarnation Point",
+        "fullText": "Reincarnation Point: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Than",
+    "rarity": 3,
+    "baseDamage": 28,
+    "type": "Air",
+    "location": "Lettuce Sea (E14R)",
+    "pity": 15000,
+    "bonuses": [
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      },
+      {
+        "name": "Whack Score Bonus",
+        "fullText": "Whack Score Bonus: \u002B0.50%"
+      },
+      {
+        "name": "Larva Quantity Found",
+        "fullText": "Larva Quantity Found: \u002B0.25%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B0.0015%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      },
+      {
+        "name": "Expedition Token",
+        "fullText": "Expedition Token: \u002B5.00%"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Hirma",
+    "rarity": 1,
+    "baseDamage": 24,
+    "type": "Air",
+    "location": "Tuna Waterfall (E15C)",
+    "pity": 10000,
+    "bonuses": [
+      {
+        "name": "Confection Exp Earned",
+        "fullText": "Confection Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Poop Created",
+        "fullText": "Poop Created: \u002B0.50%"
+      },
+      {
+        "name": "Larva Efficiency Bonus",
+        "fullText": "Larva Efficiency Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Milk Created",
+        "fullText": "Milk Created: \u002B0.25%"
+      },
+      {
+        "name": "Brewing Exp Earned",
+        "fullText": "Brewing Exp Earned: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Worm Quantity Gained",
+        "fullText": "Worm Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Card Power Gained",
+        "fullText": "Card Power Gained: \u002B2.50%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B2.50%"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Boletus",
+    "rarity": 4,
+    "baseDamage": 30,
+    "type": "Ground",
+    "location": "Tuna Waterfall (E15R)",
+    "pity": 50000,
+    "bonuses": [
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Residue Created",
+        "fullText": "Residue Created: \u002B0.05%"
+      },
+      {
+        "name": "Fermenting Exp Earned",
+        "fullText": "Fermenting Exp Earned: \u002B0.10%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B0.0015%"
+      },
+      {
+        "name": "Card Power",
+        "fullText": "Card Power: \u002B0.0015%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Larva Quantity Gained",
+        "fullText": "Larva Quantity Gained: \u002B5.00%"
+      },
+      {
+        "name": "Residue Gained",
+        "fullText": "Residue Gained: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Reward",
+        "fullText": "Expedition Reward: \u002B5.00%"
+      }
+    ]
+  }
+]
