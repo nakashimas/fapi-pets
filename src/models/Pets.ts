@@ -5,6 +5,7 @@ export interface Pet {
     name: string;
     location: string;
     type: string;
+    captureChance: number;
     pity: number;
     bonuses: Array<Bonus>;
     expeditionBonuses: Array<Bonus>;
