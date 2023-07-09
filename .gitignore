@@ -23,4 +23,19 @@ yarn-debug.log*
 yarn-error.log*
 
 # vs code
-.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+/.config/*
+/.vs/*
+fapi-data/bin
+fapi-data/obj
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
