@@ -10,4 +10,5 @@ export interface Pet {
     bonuses: Array<Bonus>;
     expeditionBonuses: Array<Bonus>;
     rarity: number;
+    baseDamage: number;
 }

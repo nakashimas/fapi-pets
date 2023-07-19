@@ -30,10 +30,11 @@ export default class PetCardDialog extends React.Component<PetCardDialogProps, a
                         <CardContent>
                             <Typography variant="body2" color="text.secondary">
                                 <div>
-                                    Location: {this.props.selectedPet.location} <br />
-                                    Type: {this.props.selectedPet.type} <br />
-                                    Drop Chance: 1 in {(this.props.selectedPet.captureChance).toLocaleString()} {this.props.selectedPet.location.includes('(E') ? 'hrs.' : 'kills'}<br />
-                                    Base Pity: {(this.props.selectedPet.pity).toLocaleString()} {this.props.selectedPet.location.includes('(E') ? 'hrs.' : 'kills'}
+                                    <div>Location: {this.props.selectedPet.location}</div>
+                                    <div>Type: {this.props.selectedPet.type}</div>
+                                    <div>Base Damage: {this.props.selectedPet.baseDamage}</div>
+                                    <div>Base Pity: {(this.props.selectedPet.pity).toLocaleString()} {this.props.selectedPet.location.includes('(E') ? 'hrs.' : 'kills'}</div>
+                                    <div>Base Drop Chance: 1/{(this.props.selectedPet.captureChance).toLocaleString()} {this.props.selectedPet.location.includes('(E') ? 'hrs.' : 'kills'}</div>
                                 </div>
                                 <Divider>
                                     <Typography sx={{ fontWeight: 'bold' }}>Bonuses</Typography>
