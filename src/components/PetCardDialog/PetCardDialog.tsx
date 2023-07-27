@@ -33,8 +33,13 @@ export default class PetCardDialog extends React.Component<PetCardDialogProps, a
                                     <div>Location: {this.props.selectedPet.location}</div>
                                     <div>Type: {this.props.selectedPet.type}</div>
                                     <div>Base Damage: {this.props.selectedPet.baseDamage}</div>
-                                    <div>Base Pity: {(this.props.selectedPet.pity).toLocaleString()} {this.props.selectedPet.location.includes('(E') ? 'hrs.' : 'kills'}</div>
-                                    <div>Base Drop Chance: 1/{(this.props.selectedPet.captureChance).toLocaleString()} {this.props.selectedPet.location.includes('(E') ? 'hrs.' : 'kills'}</div>
+                                    {this.props.selectedPet.captureChance > 0 &&
+                                        <>
+                                            {/* Only render the pity & drop chance if they're nonzero - achievement pets will have these set to 0 */}
+                                            <div>Base Pity: {(this.props.selectedPet.pity).toLocaleString()} {this.props.selectedPet.location.includes('(E') ? 'hrs.' : 'kills'}</div>
+                                            <div>Base Drop Chance: 1/{(this.props.selectedPet.captureChance).toLocaleString()} {this.props.selectedPet.location.includes('(E') ? 'hrs.' : 'kills'}</div>
+                                        </>
+                                    }
                                 </div>
                                 <Divider>
                                     <Typography sx={{ fontWeight: 'bold' }}>Bonuses</Typography>
