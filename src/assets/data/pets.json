@@ -1,5 +1,43 @@
 [
   {
+    "id": 82,
+    "name": "Strawberry",
+    "rarity": 4,
+    "baseDamage": 16,
+    "type": "Ground",
+    "location": "Anniversary Event",
+    "captureChance": 2000000,
+    "pity": 4000000,
+    "bonuses": [
+      {
+        "name": "Potato Earned",
+        "fullText": "Potato Earned: \u002B0.50%"
+      },
+      {
+        "name": "Class Exp Earned",
+        "fullText": "Class Exp Earned: \u002B0.50%"
+      },
+      {
+        "name": "Skulls Earned",
+        "fullText": "Skulls Earned: \u002B0.25%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Potato Gained",
+        "fullText": "Potato Gained: \u002B5.00%"
+      },
+      {
+        "name": "Class Exp Gained",
+        "fullText": "Class Exp Gained: \u002B5.00%"
+      },
+      {
+        "name": "Skulls Gained",
+        "fullText": "Skulls Gained: \u002B5.00%"
+      }
+    ]
+  },
+  {
     "id": 1,
     "name": "Cocorico",
     "rarity": 1,
