@@ -1,6 +1,6 @@
 {
   "petBonuses": [
-    "Potato Earned",
+    "Potatoes Earned",
     "Class Exp Earned",
     "Skulls Earned",
     "Confection Exp Earned",
@@ -10,7 +10,7 @@
     "Milk Created",
     "Whack Score Bonus",
     "Brewing Exp Earned",
-    "Calcium Exp Earned",
+    "Calcium Earned",
     "Fermenting Exp Earned",
     "Residue Created",
     "Worm Quantity Found",
@@ -20,10 +20,12 @@
     "Card Exp",
     "Healthy Potato",
     "Protein",
-    "Grasshopper Damage"
+    "Grasshopper Damage",
+    "Mining Exp",
+    "Mining Power"
   ],
   "expeditionBonuses": [
-    "Potato Gained",
+    "Potatoes Gained",
     "Class Exp Gained",
     "Skulls Gained",
     "Worm Quantity Gained",
@@ -36,8 +38,8 @@
     "Expedition Reward",
     "Expedition Time Bonus",
     "Expedition Damage",
-    "Reincarnation Point",
-    "Expedition Token",
+    "Reincarnation Point(s)",
+    "Expedition Token(s)",
     "Card Exp"
   ]
 }
