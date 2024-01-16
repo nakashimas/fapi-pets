@@ -3496,8 +3496,8 @@
     "baseDamage": 28,
     "type": "Air",
     "location": "Kiwi Land (E19C)",
-    "captureChance": 6000,
-    "pity": 12000,
+    "captureChance": 5000,
+    "pity": 10000,
     "bonuses": [
       {
         "name": "Class Exp Earned",
@@ -3542,8 +3542,8 @@
     "baseDamage": 34,
     "type": "Ground",
     "location": "Kiwi Land (E19R)",
-    "captureChance": 30000,
-    "pity": 60000,
+    "captureChance": 25000,
+    "pity": 50000,
     "bonuses": [
       {
         "name": "Potatoes Earned",
@@ -3588,8 +3588,8 @@
     "baseDamage": 30,
     "type": "Air",
     "location": "Croissant Castle (E20C)",
-    "captureChance": 8000,
-    "pity": 16000,
+    "captureChance": 7500,
+    "pity": 15000,
     "bonuses": [
       {
         "name": "Milk Created",
@@ -3634,8 +3634,8 @@
     "baseDamage": 34,
     "type": "Ground",
     "location": "Croissant Castle (E20R)",
-    "captureChance": 40000,
-    "pity": 80000,
+    "captureChance": 37500,
+    "pity": 75000,
     "bonuses": [
       {
         "name": "Mining Exp",
@@ -3680,8 +3680,8 @@
     "baseDamage": 32,
     "type": "Air",
     "location": "Mozzarella Meadow (E21C)",
-    "captureChance": 12000,
-    "pity": 24000,
+    "captureChance": 10000,
+    "pity": 20000,
     "bonuses": [
       {
         "name": "Potatoes Earned",
@@ -3780,8 +3780,8 @@
     "baseDamage": 30,
     "type": "Ground",
     "location": "Cucumber Region (E22C)",
-    "captureChance": 20000,
-    "pity": 40000,
+    "captureChance": 15000,
+    "pity": 30000,
     "bonuses": [
       {
         "name": "Confection Exp Earned",
@@ -3830,8 +3830,8 @@
     "baseDamage": 36,
     "type": "Air",
     "location": "Cucumber Region (E22R)",
-    "captureChance": 100000,
-    "pity": 200000,
+    "captureChance": 75000,
+    "pity": 150000,
     "bonuses": [
       {
         "name": "Item Rating Bonus",
@@ -3880,8 +3880,8 @@
     "baseDamage": 34,
     "type": "Air",
     "location": "Basil Country (E23C)",
-    "captureChance": 30000,
-    "pity": 60000,
+    "captureChance": 20000,
+    "pity": 40000,
     "bonuses": [
       {
         "name": "Whack Score Bonus",
@@ -3930,8 +3930,8 @@
     "baseDamage": 38,
     "type": "Ground",
     "location": "Basil Country (E23R)",
-    "captureChance": 150000,
-    "pity": 300000,
+    "captureChance": 100000,
+    "pity": 200000,
     "bonuses": [
       {
         "name": "Potatoes Earned",
@@ -3980,8 +3980,8 @@
     "baseDamage": 34,
     "type": "Air",
     "location": "Chocolate World (E24C)",
-    "captureChance": 100000,
-    "pity": 200000,
+    "captureChance": 60000,
+    "pity": 120000,
     "bonuses": [
       {
         "name": "Skulls Earned",
@@ -4030,8 +4030,8 @@
     "baseDamage": 40,
     "type": "Ground",
     "location": "Chocolate World (E24R)",
-    "captureChance": 500000,
-    "pity": 1000000,
+    "captureChance": 300000,
+    "pity": 600000,
     "bonuses": [
       {
         "name": "Item Rating Bonus",
