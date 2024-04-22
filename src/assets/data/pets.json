@@ -38,6 +38,44 @@
     ]
   },
   {
+    "id": 104,
+    "name": "Blue Bloon",
+    "rarity": 4,
+    "baseDamage": 30,
+    "type": "Air",
+    "location": "Limited Event League",
+    "captureChance": 1,
+    "pity": 2,
+    "bonuses": [
+      {
+        "name": "Item Rating Bonus",
+        "fullText": "Item Rating Bonus: \u002B0.10%"
+      },
+      {
+        "name": "Protein",
+        "fullText": "Protein: \u002B0.0001%"
+      },
+      {
+        "name": "Card Exp",
+        "fullText": "Card Exp: \u002B0.0015%"
+      }
+    ],
+    "expeditionBonuses": [
+      {
+        "name": "Expedition Reward",
+        "fullText": "Expedition Reward: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Time Bonus",
+        "fullText": "Expedition Time Bonus: \u002B5.00%"
+      },
+      {
+        "name": "Expedition Damage",
+        "fullText": "Expedition Damage: \u002B10.00%"
+      }
+    ]
+  },
+  {
     "id": 1,
     "name": "Cocorico",
     "rarity": 1,
@@ -3496,8 +3534,8 @@
     "baseDamage": 28,
     "type": "Air",
     "location": "Kiwi Land (E19C)",
-    "captureChance": 5000,
-    "pity": 10000,
+    "captureChance": 2500,
+    "pity": 5000,
     "bonuses": [
       {
         "name": "Class Exp Earned",
@@ -3542,8 +3580,8 @@
     "baseDamage": 34,
     "type": "Ground",
     "location": "Kiwi Land (E19R)",
-    "captureChance": 25000,
-    "pity": 50000,
+    "captureChance": 12500,
+    "pity": 25000,
     "bonuses": [
       {
         "name": "Potatoes Earned",
@@ -3588,8 +3626,8 @@
     "baseDamage": 30,
     "type": "Air",
     "location": "Croissant Castle (E20C)",
-    "captureChance": 7500,
-    "pity": 15000,
+    "captureChance": 3750,
+    "pity": 7500,
     "bonuses": [
       {
         "name": "Milk Created",
@@ -3634,8 +3672,8 @@
     "baseDamage": 34,
     "type": "Ground",
     "location": "Croissant Castle (E20R)",
-    "captureChance": 37500,
-    "pity": 75000,
+    "captureChance": 18750,
+    "pity": 37500,
     "bonuses": [
       {
         "name": "Mining Exp",
@@ -3680,8 +3718,8 @@
     "baseDamage": 32,
     "type": "Air",
     "location": "Mozzarella Meadow (E21C)",
-    "captureChance": 10000,
-    "pity": 20000,
+    "captureChance": 5000,
+    "pity": 10000,
     "bonuses": [
       {
         "name": "Potatoes Earned",
@@ -3730,8 +3768,8 @@
     "baseDamage": 36,
     "type": "Ground",
     "location": "Mozzarella Meadow (E21R)",
-    "captureChance": 50000,
-    "pity": 100000,
+    "captureChance": 25000,
+    "pity": 50000,
     "bonuses": [
       {
         "name": "Class Exp Earned",
@@ -3780,8 +3818,8 @@
     "baseDamage": 30,
     "type": "Ground",
     "location": "Cucumber Region (E22C)",
-    "captureChance": 15000,
-    "pity": 30000,
+    "captureChance": 7500,
+    "pity": 15000,
     "bonuses": [
       {
         "name": "Confection Exp Earned",
@@ -3830,8 +3868,8 @@
     "baseDamage": 36,
     "type": "Air",
     "location": "Cucumber Region (E22R)",
-    "captureChance": 75000,
-    "pity": 150000,
+    "captureChance": 37500,
+    "pity": 75000,
     "bonuses": [
       {
         "name": "Item Rating Bonus",
@@ -3880,8 +3918,8 @@
     "baseDamage": 34,
     "type": "Air",
     "location": "Basil Country (E23C)",
-    "captureChance": 20000,
-    "pity": 40000,
+    "captureChance": 10000,
+    "pity": 20000,
     "bonuses": [
       {
         "name": "Whack Score Bonus",
@@ -3930,8 +3968,8 @@
     "baseDamage": 38,
     "type": "Ground",
     "location": "Basil Country (E23R)",
-    "captureChance": 100000,
-    "pity": 200000,
+    "captureChance": 50000,
+    "pity": 100000,
     "bonuses": [
       {
         "name": "Potatoes Earned",
@@ -3980,8 +4018,8 @@
     "baseDamage": 34,
     "type": "Air",
     "location": "Chocolate World (E24C)",
-    "captureChance": 60000,
-    "pity": 120000,
+    "captureChance": 30000,
+    "pity": 60000,
     "bonuses": [
       {
         "name": "Skulls Earned",
@@ -4030,8 +4068,8 @@
     "baseDamage": 40,
     "type": "Ground",
     "location": "Chocolate World (E24R)",
-    "captureChance": 300000,
-    "pity": 600000,
+    "captureChance": 150000,
+    "pity": 300000,
     "bonuses": [
       {
         "name": "Item Rating Bonus",
