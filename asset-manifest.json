@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fapi-pets/static/css/main.2caefd40.css",
-    "main.js": "/fapi-pets/static/js/main.d2cb0b05.js",
+    "main.js": "/fapi-pets/static/js/main.9b2447ad.js",
     "static/media/Pet10.png": "/fapi-pets/static/media/Pet10.e4ed998c200bb2fe9b36.png",
     "static/media/Pet8.png": "/fapi-pets/static/media/Pet8.636bac29d545bb7ae688.png",
     "static/media/Pet6.png": "/fapi-pets/static/media/Pet6.5fb106b2171d4e6df9a9.png",
@@ -51,10 +51,10 @@
     "static/media/Pet35.png": "/fapi-pets/static/media/Pet35.b83ab26fe023f999e72a.png",
     "index.html": "/fapi-pets/index.html",
     "main.2caefd40.css.map": "/fapi-pets/static/css/main.2caefd40.css.map",
-    "main.d2cb0b05.js.map": "/fapi-pets/static/js/main.d2cb0b05.js.map"
+    "main.9b2447ad.js.map": "/fapi-pets/static/js/main.9b2447ad.js.map"
   },
   "entrypoints": [
     "static/css/main.2caefd40.css",
-    "static/js/main.d2cb0b05.js"
+    "static/js/main.9b2447ad.js"
   ]
 }
